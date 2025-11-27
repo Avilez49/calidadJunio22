@@ -22,7 +22,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
       - run:
-          name: "test"
+          name: "Ejecutar pruebas"
           command: "mvn test"          
 
 # Orchestrate jobs using workflows
